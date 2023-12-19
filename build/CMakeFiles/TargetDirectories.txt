@@ -1,0 +1,3 @@
+/Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir
+/Users/monibahmed/Projects/counter/build/CMakeFiles/edit_cache.dir
+/Users/monibahmed/Projects/counter/build/CMakeFiles/rebuild_cache.dir

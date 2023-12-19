@@ -1,0 +1,1 @@
+/usr/local/bin/verilator_bin;--compiler;clang;--prefix;Vcounter;--Mdir;/Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir;--make;cmake;--cc;-Wall;counter.v
