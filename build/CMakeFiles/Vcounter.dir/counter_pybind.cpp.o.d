@@ -1,5 +1,5 @@
 CMakeFiles/Vcounter.dir/counter_pybind.cpp.o: \
-  /Users/monibahmed/Projects/counter/counter_pybind.cpp \
+  /Users/monibahmed/Projects/verilator_pybind_counter/counter_pybind.cpp \
   /usr/local/Caskroom/mambaforge/base/envs/hdl_env/include/pybind11/pybind11.h \
   /usr/local/Caskroom/mambaforge/base/envs/hdl_env/include/pybind11/detail/class.h \
   /usr/local/Caskroom/mambaforge/base/envs/hdl_env/include/pybind11/detail/../attr.h \
@@ -899,7 +899,7 @@ CMakeFiles/Vcounter.dir/counter_pybind.cpp.o: \
   /usr/local/Caskroom/mambaforge/base/envs/hdl_env/include/pybind11/attr.h \
   /usr/local/Caskroom/mambaforge/base/envs/hdl_env/include/pybind11/gil.h \
   /usr/local/Caskroom/mambaforge/base/envs/hdl_env/include/pybind11/options.h \
-  /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.h \
+  /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.h \
   /usr/local/share/verilator/include/verilated.h \
   /usr/local/share/verilator/include/verilatedos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cinttypes \

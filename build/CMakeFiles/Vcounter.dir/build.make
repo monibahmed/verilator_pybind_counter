@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/monibahmed/Projects/counter
+CMAKE_SOURCE_DIR = /Users/monibahmed/Projects/verilator_pybind_counter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/monibahmed/Projects/counter/build
+CMAKE_BINARY_DIR = /Users/monibahmed/Projects/verilator_pybind_counter/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Vcounter.dir/depend.make
@@ -72,9 +72,9 @@ include CMakeFiles/Vcounter.dir/flags.make
 CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp: /usr/local/bin/verilator_bin
 CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp: /usr/local/Cellar/verilator/5.018/share/verilator/include/verilated_std.sv
 CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp: /usr/local/bin/verilator_bin
-CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp: /Users/monibahmed/Projects/counter/counter.v
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/monibahmed/Projects/counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp, CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp, CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp, CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp, CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp, CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp, CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cmake"
-	cd /Users/monibahmed/Projects/counter && /usr/local/bin/verilator_bin --compiler clang --prefix Vcounter --Mdir /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir --make cmake --cc -Wall counter.v
+CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp: /Users/monibahmed/Projects/verilator_pybind_counter/counter.v
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp, CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp, CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp, CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp, CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp, CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp, CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cmake"
+	cd /Users/monibahmed/Projects/verilator_pybind_counter && /usr/local/bin/verilator_bin --compiler clang --prefix Vcounter --Mdir /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir --make cmake --cc -Wall counter.v
 
 CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp: CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp
@@ -95,111 +95,111 @@ CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cmake: CMakeFiles/Vcounter.dir/Vco
 	@$(CMAKE_COMMAND) -E touch_nocreate CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cmake
 
 CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter_copy.cmake: CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/monibahmed/Projects/counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter_copy.cmake"
-	/usr/local/Cellar/cmake/3.28.1/bin/cmake -E copy_if_different /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cmake /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter_copy.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter_copy.cmake"
+	/usr/local/Cellar/cmake/3.28.1/bin/cmake -E copy_if_different /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cmake /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter_copy.cmake
 
 CMakeFiles/Vcounter.dir/counter_pybind.cpp.o: CMakeFiles/Vcounter.dir/flags.make
-CMakeFiles/Vcounter.dir/counter_pybind.cpp.o: /Users/monibahmed/Projects/counter/counter_pybind.cpp
+CMakeFiles/Vcounter.dir/counter_pybind.cpp.o: /Users/monibahmed/Projects/verilator_pybind_counter/counter_pybind.cpp
 CMakeFiles/Vcounter.dir/counter_pybind.cpp.o: CMakeFiles/Vcounter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Vcounter.dir/counter_pybind.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/counter_pybind.cpp.o -MF CMakeFiles/Vcounter.dir/counter_pybind.cpp.o.d -o CMakeFiles/Vcounter.dir/counter_pybind.cpp.o -c /Users/monibahmed/Projects/counter/counter_pybind.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Vcounter.dir/counter_pybind.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/counter_pybind.cpp.o -MF CMakeFiles/Vcounter.dir/counter_pybind.cpp.o.d -o CMakeFiles/Vcounter.dir/counter_pybind.cpp.o -c /Users/monibahmed/Projects/verilator_pybind_counter/counter_pybind.cpp
 
 CMakeFiles/Vcounter.dir/counter_pybind.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vcounter.dir/counter_pybind.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/counter/counter_pybind.cpp > CMakeFiles/Vcounter.dir/counter_pybind.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/verilator_pybind_counter/counter_pybind.cpp > CMakeFiles/Vcounter.dir/counter_pybind.cpp.i
 
 CMakeFiles/Vcounter.dir/counter_pybind.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vcounter.dir/counter_pybind.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/counter/counter_pybind.cpp -o CMakeFiles/Vcounter.dir/counter_pybind.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/verilator_pybind_counter/counter_pybind.cpp -o CMakeFiles/Vcounter.dir/counter_pybind.cpp.s
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.o: CMakeFiles/Vcounter.dir/flags.make
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.o: CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.o: CMakeFiles/Vcounter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.o -MF CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.o.d -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.o -c /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.o -MF CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.o.d -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.o -c /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp > CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp > CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.i
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter.cpp.s
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.o: CMakeFiles/Vcounter.dir/flags.make
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.o: CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.o: CMakeFiles/Vcounter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.o -MF CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.o.d -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.o -c /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.o -MF CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.o.d -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.o -c /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp > CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp > CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.i
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h0dd033c2__0.cpp.s
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.o: CMakeFiles/Vcounter.dir/flags.make
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.o: CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.o: CMakeFiles/Vcounter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.o -MF CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.o.d -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.o -c /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.o -MF CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.o.d -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.o -c /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp > CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp > CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.i
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0.cpp.s
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.o: CMakeFiles/Vcounter.dir/flags.make
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.o: CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.o: CMakeFiles/Vcounter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.o -MF CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.o.d -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.o -c /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.o -MF CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.o.d -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.o -c /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp > CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp > CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.i
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp.s
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.o: CMakeFiles/Vcounter.dir/flags.make
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.o: CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.o: CMakeFiles/Vcounter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.o -MF CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.o.d -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.o -c /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.o -MF CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.o.d -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.o -c /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp > CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp > CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.i
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp.s
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.o: CMakeFiles/Vcounter.dir/flags.make
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.o: CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.o: CMakeFiles/Vcounter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.o -MF CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.o.d -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.o -c /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.o -MF CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.o.d -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.o -c /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp > CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp > CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.i
 
 CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp -o CMakeFiles/Vcounter.dir/CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter__Syms.cpp.s
 
 CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated.cpp.o: CMakeFiles/Vcounter.dir/flags.make
 CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated.cpp.o: /usr/local/share/verilator/include/verilated.cpp
 CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated.cpp.o: CMakeFiles/Vcounter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated.cpp.o -MF CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated.cpp.o.d -o CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated.cpp.o -c /usr/local/share/verilator/include/verilated.cpp
 
 CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated.cpp.i: cmake_force
@@ -213,7 +213,7 @@ CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated.cpp.s: cmake
 CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated_threads.cpp.o: CMakeFiles/Vcounter.dir/flags.make
 CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated_threads.cpp.o: /usr/local/share/verilator/include/verilated_threads.cpp
 CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated_threads.cpp.o: CMakeFiles/Vcounter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated_threads.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated_threads.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated_threads.cpp.o -MF CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated_threads.cpp.o.d -o CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated_threads.cpp.o -c /usr/local/share/verilator/include/verilated_threads.cpp
 
 CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated_threads.cpp.i: cmake_force
@@ -250,9 +250,9 @@ Vcounter.cpython-312-darwin.so: CMakeFiles/Vcounter.dir/usr/local/share/verilato
 Vcounter.cpython-312-darwin.so: CMakeFiles/Vcounter.dir/usr/local/share/verilator/include/verilated_threads.cpp.o
 Vcounter.cpython-312-darwin.so: CMakeFiles/Vcounter.dir/build.make
 Vcounter.cpython-312-darwin.so: CMakeFiles/Vcounter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/monibahmed/Projects/counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared module Vcounter.cpython-312-darwin.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared module Vcounter.cpython-312-darwin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Vcounter.dir/link.txt --verbose=$(VERBOSE)
-	/Library/Developer/CommandLineTools/usr/bin/strip -x /Users/monibahmed/Projects/counter/build/Vcounter.cpython-312-darwin.so
+	/Library/Developer/CommandLineTools/usr/bin/strip -x /Users/monibahmed/Projects/verilator_pybind_counter/build/Vcounter.cpython-312-darwin.so
 
 # Rule to build all files generated by this target.
 CMakeFiles/Vcounter.dir/build: Vcounter.cpython-312-darwin.so
@@ -270,6 +270,6 @@ CMakeFiles/Vcounter.dir/depend: CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___
 CMakeFiles/Vcounter.dir/depend: CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__DepSet_h5086c508__0__Slow.cpp
 CMakeFiles/Vcounter.dir/depend: CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter___024root__Slow.cpp
 CMakeFiles/Vcounter.dir/depend: CMakeFiles/Vcounter.dir/Vcounter.dir/Vcounter_copy.cmake
-	cd /Users/monibahmed/Projects/counter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/monibahmed/Projects/counter /Users/monibahmed/Projects/counter /Users/monibahmed/Projects/counter/build /Users/monibahmed/Projects/counter/build /Users/monibahmed/Projects/counter/build/CMakeFiles/Vcounter.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/monibahmed/Projects/verilator_pybind_counter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/monibahmed/Projects/verilator_pybind_counter /Users/monibahmed/Projects/verilator_pybind_counter /Users/monibahmed/Projects/verilator_pybind_counter/build /Users/monibahmed/Projects/verilator_pybind_counter/build /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Vcounter.dir/depend
 

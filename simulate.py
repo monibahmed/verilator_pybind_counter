@@ -1,12 +1,10 @@
-## import sys
-## 
-## sys.path.append('/Users/monibahmed/Projects/counter/build')
-## import counter
+import sys
 
+sys.path.append('./build')
+print(sys.path)
 
-import counter
-
-c = counter.Vcounter()
+import Vcounter
+c = Vcounter.Vcounter()
 c.reset(True)
 c.tick()
 c.reset(False)

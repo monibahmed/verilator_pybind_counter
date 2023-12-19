@@ -54,10 +54,10 @@ RM = /usr/local/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/monibahmed/Projects/counter
+CMAKE_SOURCE_DIR = /Users/monibahmed/Projects/verilator_pybind_counter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/monibahmed/Projects/counter/build
+CMAKE_BINARY_DIR = /Users/monibahmed/Projects/verilator_pybind_counter/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/Vcounter.dir/clean
 CMakeFiles/Vcounter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vcounter.dir/build.make CMakeFiles/Vcounter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vcounter.dir/build.make CMakeFiles/Vcounter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monibahmed/Projects/counter/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target Vcounter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target Vcounter"
 .PHONY : CMakeFiles/Vcounter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Vcounter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monibahmed/Projects/counter/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Vcounter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monibahmed/Projects/counter/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles 0
 .PHONY : CMakeFiles/Vcounter.dir/rule
 
 # Convenience name for target.
