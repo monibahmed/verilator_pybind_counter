@@ -1,3 +1,0 @@
-/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir
-/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/edit_cache.dir
-/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/rebuild_cache.dir

@@ -1,1 +1,0 @@
-/usr/local/bin/verilator_bin;--compiler;clang;--prefix;Vcounter;--Mdir;/Users/monibahmed/Projects/verilator_pybind_counter/build/CMakeFiles/Vcounter.dir/Vcounter.dir;--make;cmake;--cc;-Wall;counter.v
